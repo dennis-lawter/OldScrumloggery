@@ -1,0 +1,32 @@
+html{
+	margin: 0px;
+}
+body{
+	margin: 0px;
+	font-style: bold;
+	font-family: sans-serif;
+}
+table{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-collapse: yes;
+	border-spacing: 0px;
+}
+tr,td{
+	width: auto;
+	border-bottom: 1px solid black;
+}
+tr{
+	border-spacing: 2px;
+}
+td.spacer{
+	width: 16px;
+}
+table.maintable{
+	width: 100%;
+}
+td.tableheader{
+	background-color: #c0c0c0;
+	padding: 2px;
+}

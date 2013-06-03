@@ -1,0 +1,138 @@
+.greenBorder
+{
+	/*border: 1px solid green;*/
+	border: 0px;
+}
+html{
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+body{
+	margin: 0px;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: lighter;
+}
+table,tr,td{
+	vertical-align: top;
+	border: 0px;
+	padding: 0px;
+	border-collapse:collapse;
+}
+img{
+	border: 0px;
+}
+div{
+	text-align: left;
+}
+
+div.menu{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+	width: auto;
+	border: 1px solid black;
+	padding: 0px;
+	background-color: white;
+}
+div.menuheader{
+	visibility: inherit;
+	background-color: #666666;
+	padding: 2px;
+	color: white;
+	font-weight: bolder;
+	padding: 0px;
+}
+td.derp{
+	color: white;
+	font-weight: bolder;
+	font-size: 14px;
+}
+div.menuitem{
+	position: relative;
+	visibility: inherit;
+	border: 0px;
+	font-variant: small-caps;
+	/*font-weight: bold;*/
+	padding: 0px;
+	/*display: table-cell;*/
+	color: blue;
+}
+img.menuimg{
+	vertical-align: text-top;
+}
+
+div.contents{
+	height: 50%;
+	width: 100%;
+	border: 0px solid black;
+	padding: 0px;
+}
+div.header{
+	background-color: #666666;
+	padding: 2px;
+	color: white;
+	font-weight: bolder;
+	font-size: 18px;
+}
+div.products{
+	margin: 2px;
+	background-color: #ffcccc;
+	border: 1px solid black;
+}
+div.sprints{
+	margin: 2px;
+	margin-left: 25px;
+	background-color: #ffffcc;
+	border: 1px solid black;
+}
+div.features{
+	margin: 2px;
+	margin-left: 50px;
+	background-color: #ccffff;
+	border: 1px solid black;
+}
+div.user_stories{
+	margin: 2px;
+	margin-left: 75px;
+	background-color: #ccccff;
+	border: 1px solid black;
+}
+table.datatable th{
+	margin: 2px;
+	padding: 2px;
+	background-color: #ccffcc;
+	border: 1px solid black;
+	text-align: left;
+}
+table.datatable td{
+	margin: 2px;
+	padding: 2px;
+	background-color: #ccffcc;
+	border: 1px solid black;
+	text-align: left;
+}
+table.datatable th{
+	margin: 2px;
+	padding: 2px;
+	background-color: #99ff99;
+	border: 1px solid black;
+	text-align: left;
+	font-weight: bold;
+}
+.titlename{
+	font-variant: small-caps;
+	font-weight: bold;
+}
+.description{
+	font-family: "Arial Narrow", Arial, sans-serif;
+	font-weight: 100;
+}
+h1, h2, h3, h4, h5, h6{
+	margin: 0px;
+	padding: 0px;
+}

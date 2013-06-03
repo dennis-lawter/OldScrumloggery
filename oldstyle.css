@@ -1,0 +1,40 @@
+body{
+	font-family: arial, "lucida console", sans-serif;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+textarea{
+	font-family: courier, monospace;
+}
+img{
+	border: 0px;
+	vertical-align: inherit;
+}
+table {
+	width: auto;
+	height: auto;
+	text-align: left;
+	font-size: 12px;
+	padding: 0px;
+	margin: 5px;
+	border-collapse: collapse;
+}
+th{
+	width: auto;
+	height: auto;
+	vertical-align: middle;
+}
+td.priority{
+	width: auto;
+	height: auto;
+	text-align: right;
+}
+table,th,tr,td{
+	border: 0px solid black;
+}
+h1{
+	margin: 0px;
+}
